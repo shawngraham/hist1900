@@ -1,5 +1,4 @@
 # The History of the Internet
-
 ## with Shawn Graham
 
 Testing out the mkdocs template to see how it goes.
@@ -8,4 +7,5 @@ Testing out the mkdocs template to see how it goes.
 
 [[some thoughts on assessment]]
 
-[[some thoughts on schedule]]
+[[some thoughts on schedule]]![[broken-machines.png]]
+[Photo by Elly Filho, Unsplash.com](https://unsplash.com/photos/uKB4O22KMMk)
