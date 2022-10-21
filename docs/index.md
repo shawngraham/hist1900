@@ -1,11 +1,11 @@
-# Obsidian Notes
+# The History of the Internet
 
-Publish your public notes with MkDocs
+## with Shawn Graham
 
-## Hello World!
+Testing out the mkdocs template to see how it goes.
 
-The `index.md` in the `/docs` folder is the homepage you see here.
+[[some course policies]]
 
-The folders in `/docs` appear as the main sections on the navigation bar.
+[[some thoughts on assessment]]
 
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+[[some thoughts on schedule]]
