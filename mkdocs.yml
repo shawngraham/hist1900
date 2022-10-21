@@ -1,5 +1,4 @@
-site_name: obsidian-mkdocs template
-
+site_name: HIST1900 @Carleton U Winter 2023 with Shawn Graham - The History of the Internet
 theme:
     name: 'material'
     palette:
@@ -7,7 +6,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: blue
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
