@@ -1,7 +1,9 @@
-# The History of the Internet, with Shawn Graham
+# HIST1900C The History of the Internet
 
-![[logo.png]] HIST1900C, Winter 2023, [Carleton University](https://carleton.ca/history)
-Taught by [Shawn Graham](https://shawngraham.github.io).
+<img src="assets/logo.png" align="right"> HIST1900C, Winter 2023, [Carleton University](https://carleton.ca/history)
+Taught by [Shawn Graham](https://shawngraham.github.io). M, W @ 1.05 pm - 2.25 pm, in [LA C164](https://carleton.ca/tls/rooms/loeb-c164/).
+
+### The Big Idea
 
 <img src="assets/broken-machines.png" align="left" width="30%"></img> The ‘history of the internet’ is more than the history of a particular package of technologies. It’s a story about power, people, culture, and materials. The ‘internet’ isn’t a _thing_, it’s a _place_ and since time and space are unified, it’s an _age_. What is an appropriate frame to study the internet, and once we’ve decided on that, _what might we see?_ I’m not sure where this will take us – but wherever we go, the journey will change how you think about the world. My background is in archaeology: this will be a self-consciously *archaeological* investigate.
 
@@ -19,10 +21,10 @@ In a word, **no**! You do have to be willing to be comfortable with experimentat
 
 ### Get Started
 
-Before class begins in january, please complete the tutorial level (5% of your grade). The tutorial will walk you through setting up your Github account, and installing (and using) Obsidian on your machine. Then, you can try to [[Set Up Your Own Website]] using Obsidian and Github in tandem.
+Before class begins in January, please complete the tutorial level (5% of your grade). The tutorial will walk you through setting up your Github account, and installing (and using) Obsidian on your machine. Then, you can try to [[Set Up Your Own Website]] using Obsidian and Github in tandem.
 
 Make sure you read through and understand these materials: 
-[[1.course policies]]
+[[1.Course Policies]]
 
 [[2.Schedule]]
 
