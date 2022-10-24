@@ -38,7 +38,7 @@ Give it a minute or two, and your website will be visible at `your-user-name.git
 
 ## Updating the site
 
-Move notes that you want to make visible to the world into your `website` folder (or the local repo folder, if you're using the advanced approach). Drop images into that folder, too, if you want the images to be visible on the web.  
+Move notes that you want to make visible to the world into your `website` folder (or the local repo folder, if you're using the advanced approach). Drop images into that folder, too, if you want the images to be visible on the web.  You can then link and display images using Obsidian's markup, eg `![[mkdoc-template.png]]`. 
 
 Use github.com upload feature as described in step 3 to push your new materials online. 
 
