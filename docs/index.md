@@ -3,11 +3,11 @@
 
 Testing out the mkdocs template to see how it goes.
 
-[[some course policies]]
+[[1.course policies]]
 
-[[some thoughts on assessment]]
+[[mkdocs-1900/docs/1.Course_Info/assessment]]
 
-[[some thoughts on schedule]]
+[[2.Schedule]]
 
 ![[assets/broken-machines.png]]
 
