@@ -8,8 +8,8 @@ I want you to use your own personal memex as a way to share your work online. We
 
 
 ### Setup
-1. Make a folder inside your Obsidian vault; call it 'website'. Any notes that you create that you want to share on the net will go into this folder for safekeeping (so you can find them easily on your machine.)
-2. Create a **new github repository using this template**. Click the green button at the top or use [this link](https://github.com/jobindjohn/obsidian-publish-mkdocs/generate). 
+1. **If you are comfortable with git and github, skip this step**. If you are a **newcomer to Github***: make a folder inside your Obsidian vault; call it 'website'. Any notes that you create that you want to share on the net will go into this folder for safekeeping (so you can find them easily on your machine.) *
+2. Create a **new github repository using this template** [here](https://github.com/jobindjohn/obsidian-publish-mkdocs). Click the green button at the top or use [this link](https://github.com/jobindjohn/obsidian-publish-mkdocs/generate). 
 
 ![[assets/use-this-template.png]]
 

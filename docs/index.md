@@ -1,6 +1,8 @@
 # HIST1900C The History of the Internet
 
-<img src="assets/logo.png" align="left"> HIST1900C, Winter 2023, [Carleton University](https://carleton.ca/history)
+<img src="assets/logo.png" align="left">
+
+HIST1900C, Winter 2023, [Carleton University](https://carleton.ca/history)
 Taught by [Shawn Graham](https://shawngraham.github.io). M, W @ 1.05 pm - 2.25 pm, in [LA C164](https://carleton.ca/tls/rooms/loeb-c164/).
 
 ### The Big Idea
