@@ -2,14 +2,14 @@
 
 I want you to use your own personal memex as a way to share your work online. We are going to set up a semi-automated way to publish _subsets_ of your Obsidian vault. The result will be a website that looks rather like our course website - well, it *should*; I'm using the exact same system!
 
-![](assets/mkdoc-template.png)
+![[mkdoc-template.png]]
 
 ## Quick start
 
 1. Make a folder inside your Obsidian vault; call it 'website'. Any notes that you create that you want to share on the net will go into this folder for safekeeping (so you can find them easily on your machine.)
 2. Create a **new github repository using this template**. Click the green button at the top or use [this link](https://github.com/jobindjohn/obsidian-publish-mkdocs/generate). 
 
-![](assets/use-this-template.png)
+![[assets/use-this-template.png]]
 
 2.  **Give a name** to your repository. By default your notes will be published at `<https://username.github.io/repo-name/>`
      - Copy only the `main` branch while creating the repo from the template (this happens automatically, so you shouldn't have to work about that.)

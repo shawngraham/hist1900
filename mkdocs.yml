@@ -47,7 +47,7 @@ font:
   code: Roboto Mono
 
 icon:
-  logo: assets/logo.png
+  logo: /assets/logo.png
 
 # Extensions
 markdown_extensions:
