@@ -1,8 +1,6 @@
 site_name: HIST1900 @Carleton U Winter 2023 with Shawn Graham - The History of the Internet
 theme:
     name: 'material'
-    icon:
-      logo: assets/logo.png
 
     features:
     # - announce.dismiss
