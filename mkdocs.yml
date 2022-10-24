@@ -2,7 +2,7 @@ site_name: HIST1900 @Carleton U Winter 2023 with Shawn Graham - The History of t
 theme:
     name: 'material'
     icon:
-      logo: assets/logo.png
+      logo: https://raw.githubusercontent.com/shawngraham/hist1900/main/docs/assets/logo.png
       
     features:
     # - announce.dismiss
