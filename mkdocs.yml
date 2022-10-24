@@ -46,6 +46,8 @@ font:
   text: Roboto
   code: Roboto Mono
 
+logo: assets/logo.png
+
 # Extensions
 markdown_extensions:
   - footnotes
