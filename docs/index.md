@@ -1,11 +1,11 @@
 # HIST1900C The History of the Internet
 
-<img src="assets/logo.png" align="right"> HIST1900C, Winter 2023, [Carleton University](https://carleton.ca/history)
+<img src="assets/logo.png" align="left"> HIST1900C, Winter 2023, [Carleton University](https://carleton.ca/history)
 Taught by [Shawn Graham](https://shawngraham.github.io). M, W @ 1.05 pm - 2.25 pm, in [LA C164](https://carleton.ca/tls/rooms/loeb-c164/).
 
 ### The Big Idea
 
-<img src="assets/broken-machines.png" align="left" width="30%"></img> The ‘history of the internet’ is more than the history of a particular package of technologies. It’s a story about power, people, culture, and materials. The ‘internet’ isn’t a _thing_, it’s a _place_ and since time and space are unified, it’s an _age_. What is an appropriate frame to study the internet, and once we’ve decided on that, _what might we see?_ I’m not sure where this will take us – but wherever we go, the journey will change how you think about the world. My background is in archaeology: this will be a self-consciously *archaeological* investigate.
+<img src="assets/broken-machines.png" align="left" width="30%"></img> The ‘history of the internet’ is more than the history of a particular package of technologies. It’s a story about power, people, culture, and materials. The ‘internet’ isn’t a _thing_, it’s a _place_ and since time and space are unified, it’s an _age_. What is an appropriate frame to study the internet, and once we’ve decided on that, _what might we see?_ I’m not sure where this will take us – but wherever we go, the journey will change how you think about the world. My background is in archaeology: this will be a self-consciously *archaeological* investigation
 
 HIST1900c is a hands-on lecture based class. By ‘hands on’ I mean you will in fact build things in this class. I will lecture to set the scene. What happens next is up to you.
 
