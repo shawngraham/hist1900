@@ -22,9 +22,12 @@ In a word, **no**! You do have to be willing to be comfortable with experimentat
 Before class begins in january, please complete the tutorial level (5% of your grade). The tutorial will walk you through setting up your Github account, and installing (and using) Obsidian on your machine. Then, you can try to [[Set Up Your Own Website]] using Obsidian and Github in tandem.
 
 Make sure you read through and understand these materials: 
-+ [[1.course policies]]
-+ [[2.Schedule]]
-+ [[Assessment|3.Assessment]].
+[[1.course policies]]
 
+[[2.Schedule]]
 
-[Photo by Elly Filho, Unsplash.com](https://unsplash.com/photos/uKB4O22KMMk)
+[[Assessment|3.Assessment]].
+
+_[Photo by Elly Filho, Unsplash.com](https://unsplash.com/photos/uKB4O22KMMk)_
+
+_Site is built using [[colophon|mkdocs.]]_
