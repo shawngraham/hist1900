@@ -4,27 +4,33 @@ I want you to use your own personal memex as a way to share your work online. We
 
 ![[mkdoc-template.png]]
 
-## Quick start
+## Let's Do This.
 
+
+### Setup
 1. Make a folder inside your Obsidian vault; call it 'website'. Any notes that you create that you want to share on the net will go into this folder for safekeeping (so you can find them easily on your machine.)
 2. Create a **new github repository using this template**. Click the green button at the top or use [this link](https://github.com/jobindjohn/obsidian-publish-mkdocs/generate). 
 
 ![[assets/use-this-template.png]]
 
-2.  **Give a name** to your repository. By default your notes will be published at `<https://username.github.io/repo-name/>`
+3.  **Give a name** to your repository. By default your notes will be published at `<https://username.github.io/repo-name/>`
      - Copy only the `main` branch while creating the repo from the template (this happens automatically, so you shouldn't have to work about that.)
-3. **Newcomer**  Make a new note in your 'website' folder; call it `index`. This will be the 'home' page of the website. 
+
+### Make Some Content
+4. **Newcomer**  Make a new note in your 'website' folder; call it `index`. This will be the 'home' page of the website. 
 	1. Find this note on your machine (use Windows Explorer or Mac Finder or right-click on the file name in Obsidian's file list on the left side of your screen and select 'reveal in finder')
 	2. In Github, in the repo you just created, click on `docs` in the middle of the screen
 	
 	![[assets/mkdocs-list-of-files.png]]
 	
-	3. Click on 'add files -> upload files'. Drag-n-drop the index.md note onto the upload pane. Once it's finished uploading, click the green 'commit' button at the bottom. Now go to step 5.
-4. **Advanced** If you are familiar with using Git on the command line, you can **clone** the repository you generated **into your Obsidian folder/vault** ; it will turn up in Obsidian as a folder called `repo-name`. 
+	3. Click on 'add files -> upload files'. Drag-n-drop the index.md note onto the upload pane. Once it's finished uploading, click the green 'commit' button at the bottom. Now go to **Publish!**.
+5. **Advanced** If you are familiar with using Git on the command line, you can **clone** the repository you generated **into your Obsidian folder/vault** ; it will turn up in Obsidian as a folder called `repo-name`. 
 	1. **Move your notes** that you would like to make public to the `repo-name/docs` folder.
 	    - Easiest way to do this would be using drag and drop within Obsidian
-	1. Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/). 
-5. Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
+	2. Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/). 
+
+### Publish!
+6. Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
 
 ![](assets/github-branch.png)
 
