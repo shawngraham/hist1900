@@ -9,6 +9,6 @@ Testing out the mkdocs template to see how it goes.
 
 [[some thoughts on schedule]]
 
-![[asetbroken-machines.png]]
+![[assets/broken-machines.png]]
 
 [Photo by Elly Filho, Unsplash.com](https://unsplash.com/photos/uKB4O22KMMk)
