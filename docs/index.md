@@ -17,9 +17,12 @@ In a word, **no**! You do have to be willing to be comfortable with experimentat
 
 ### Academic Goals
 
--   Familiarity with some different frameworks for studying this history
--   Contextualized understanding of technical/scientific advances in their cultural milieu
--   Ways of studying this material that take advantages of the affordances of networked ways-of-thinking
+My goals for you are that you will develop
+
+-  Familiarity with some different frameworks for studying this history
+-  Contextualized understanding of technical/scientific advances in their cultural milieu
+-  Ways of studying this material that take advantages of the affordances of networked ways-of-thinking
+- Facility with personal knowledge management approaches
 
 ### Get Started
 
