@@ -1,12 +1,14 @@
 In this assignment, which unrolls over the duration of the entire term, you will create your own personal 'memex' of a kind first described by [Vannevar Bush in his article, 'As We May Think.'](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) published in The Atlantic in 1945.
 
+## Build your Memex
+
 This involves:
 
 - making annotations on the readings, via your own [Zotero](https://zotero.org) library
 - extracting those annotations to a single note in [Obsidian](https://obsidian.md)
 - writing a summary note on the reading
 - refactoring the extracted annotations into individual, 'atomic' notes (one idea per note)
-- interlinking the atomic notes to each other to the summaries as appropriate
+- interlinking the atomic notes to each other to the summaries as appropriate (use the graph feature to help with this)
 - adding new notes with your own thoughts/observations (including from my lectures)
 - interlinking those as well.
 
@@ -18,6 +20,25 @@ Then:
 + I will share with you the URLs of others' memexes and I will encourage you to make external links to ideas your peers have made.
 
 **This mirrors the ways documents and servers and the other bits and pieces of the internet came to become interconnected.**
+
+### My Evaluation
+
+Points that I look for as I evaluate your memex as it develops:
+- are notes well documented? have you used the templates to good effect?
+- are there sensible interlinkages? 
+- is there evidence of careful, reflexive thinking? Is there evidence of taking in the discussions, making connections between what you have done/heard/read? Explicitly cite materials that underpin your thinking using Harvard author-date contextual citations or link to the items directly in your Zotero library
+- is there evidence for how feedback has been considered, adopted, adapted? Is there evidence for a developing sophistication in the work?
+
+Assessment will be along the spectrum “unsatisfactory - satisfactory - exceptional”. Numerically, this translates as:
+
+-   unsatisfactory: 0-2 points (ie, F-D range)
+-   satisfactory: 3-4 points (ie, C-B range)
+-   exceptional: 5 points (ie, A-A+ range)
+
+
+## The Final Journey
+
+^98ce79
 
 At the end of the course, you will install the 'journey' plugin from the Obsidian Community Plugin catalogue (click on the 'settings' cogwheel, bottom left, community plugins -> browse) to craft a summary note for the course. 'Journey' will find paths through your notes from a starting note to a finishing note. 
 
