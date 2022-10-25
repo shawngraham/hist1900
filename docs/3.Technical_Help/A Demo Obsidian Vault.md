@@ -1,0 +1,1 @@
+Here will be a a link to an obsidian vault preconfigured with a few useful bits and bobs to get the student started. It will be a minimal vault.

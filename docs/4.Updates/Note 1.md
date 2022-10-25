@@ -1,7 +1,4 @@
 # Note 1
 
-Example: link to [[Mermaid Diagrams]] under `Features`
-
-
-Mind map?
+Just leaving this blank as a space to post updates as necessary.
 

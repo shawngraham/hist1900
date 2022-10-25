@@ -17,11 +17,11 @@ graph LR
 
 ## Grade Breakdown
 
-Tutorial level: 5% - **January 11**
-First Evaluation of your Memex: 10%  - **February 10**
-Second Evaluation of your Memex: 20% - **March 10**
-Third Evaluation of your Memex: 30% - **April 5**
-Final Journey: 35% - **April 27**
+- Tutorial level: 5% - **January 11**
+- First Evaluation of your Memex: 10%  - **February 10**
+- Second Evaluation of your Memex: 20% - **March 10**
+- Third Evaluation of your Memex: 30% - **April 10**
+- Final Journey: 35% - **April 27**
 
 Work accepted until midnight on the relevant dates.
 
