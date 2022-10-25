@@ -20,10 +20,11 @@ Then:
 **This mirrors the ways documents and servers and the other bits and pieces of the internet came to become interconnected.**
 
 At the end of the course, you will install the 'journey' plugin from the Obsidian Community Plugin catalogue (click on the 'settings' cogwheel, bottom left, community plugins -> browse) to craft a summary note for the course. 'Journey' will find paths through your notes from a starting note to a finishing note. 
+
 - you will identify a starting note and a finishing note that will enable you to answer the question, '**what is the most powerful thing you've learned in this course**'. 
 - You copy the results of that path as a list of links. 
 - You will make a new note into which you paste that list of links.
-- You explain the path to your reader by writing new text woven around these links that explains how the path unfolds. You may wish to embed blocks from the individual notes; add the `^` character within the link at the end of the note name to bring up the individual parts; hit enter to select the block of text you want; then place a `!` in front, like so: `![[name-of-note^54234]]`). Obsidian will embed the paragraph at that location into your note.
+- You explain the path to your reader by writing new text woven around these links that explains how the path unfolds. You may wish [[to embed blocks from the individual notes]].
 - You will make sure that every note in that path is pushed to the online version of your memex. 
 - You push this note to your online memex, and add a link to it from your `index.md` note.
 

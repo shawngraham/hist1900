@@ -1,0 +1,1 @@
+Add the `^` character within the link at the end of the note name to bring up the individual parts; hit enter to select the block of text you want; then place a `!` in front, like so: `![[name-of-note^54234]]`). Obsidian will embed the paragraph at that location into your note.
