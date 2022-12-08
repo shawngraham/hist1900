@@ -6,4 +6,4 @@ There can be good reasons to want to not do that. If those apply to you, you don
 2. set it to private
 3. initialize it with a readme
 4. add `shawngraham` as a collaborator
-5. use windows explorer or mac finder to locate your notes created using Obsidian. They will have the `.md` file extension. Drag and drop your .md files onto your private repository to upload them. Commit your changes.
+5. use windows explorer or mac finder to locate your notes created using Obsidian.  They will have the `.md` file extension. You can also right-click on a note name in the Obsidian side bar, and select `reveal in finder` to find the actual text file for your note. Drag and drop your .md files onto your private repository to upload them. Commit your changes.
