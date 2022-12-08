@@ -24,6 +24,7 @@ Then:
 ### My Evaluation
 
 Points that I look for as I evaluate your memex as it develops:
+
 - are notes well documented? have you used the templates to good effect?
 - are there sensible interlinkages? 
 - is there evidence of careful, reflexive thinking? Is there evidence of taking in the discussions, making connections between what you have done/heard/read? Explicitly cite materials that underpin your thinking using Harvard author-date contextual citations or link to the items directly in your Zotero library
