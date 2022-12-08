@@ -17,7 +17,7 @@ graph LR
 
 ## Grade Breakdown
 
-- Tutorial level: 5% - **January 11**
+- [Tutorial level](https://shawngraham.github.io/tutorial-levels/src/hist1900c-tutorial.html): 5% - **January 11**
 - First Evaluation of your Memex: 10%  - **February 10**
 - Second Evaluation of your Memex: 20% - **March 10**
 - Third Evaluation of your Memex: 30% - **April 10**
