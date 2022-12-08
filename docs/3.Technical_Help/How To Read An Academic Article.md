@@ -11,6 +11,8 @@ You read like a *predator.* You're after something. How you read the article on 
 
 Four times! And each time I read it, I'm making different kinds of notes because I'm after different things. If I've read a stack of five papers, and I've just been reading the abstract, I now know which ones I want to dive into. My second reading then focusses on those papers, and what they conclude. This helps change my thinking, and makes me realize that perhaps I need to cycle back to some of the other papers, or perhaps dive deeper... reading is cyclical, as an academic. So I'll have a note with the basic information about an article, all of its bibliographic data so I can cite things properly. I might even have a small summary of the paper in that note (see questions below). Then I'll have lots of atomic notes, individual thoughts or observations. These atomic will be tagged with key questions I think they might help answer. These atomic notes will also all contain a link to the original bibliographic note, so I know where I'm drawing from. These atomic notes might also link to other atomic notes, or link to other bibliographic notes, if appropriate.
 
+By the way, it can also be super helpful to make notes on terms, words, concepts, expressions that you don't understand.
+
 !!! note
 	How I do things is not the only way; you will eventually develop your own style. But seeing as how this is a first year class, I want you to do it my way for now, so that you have a good basis for developing your own emerging style. The key thing is that you're documenting and linking your thinking.
 
