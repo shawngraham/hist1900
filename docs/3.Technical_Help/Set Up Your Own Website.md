@@ -35,16 +35,13 @@ And now you're ready to go! When you eventually drag-and-drop note files onto th
 	![[assets/mkdocs-list-of-files.png]]
 	
 4. Click on the 'add files -> upload files'.  ![[add-bar.png]]Drag-n-drop the index.md note onto the upload pane. Once it's finished uploading, click the green 'commit' button at the bottom. ![[commit.png]] You can leave a little message in the description box to remind yourself why you were making the change, or you can leave it with the defaults. **Remember** no changes are saved, when working on Github, unless you hit the `Commit` button. Now go to the **Make Your Site Live** section below.
-5. **Advanced** As already indicated, if you are familiar with using Git on the command line, you can **clone** the repository you generated **into your Obsidian folder/vault** ; it will turn up in Obsidian as a folder called `repo-name`. 
-	1. **Move your notes** that you would like to make public to the `repo-name/docs` folder.
-	    - Easiest way to do this would be using drag and drop within Obsidian
-	2. Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/). 
+
+!!! note
+	The act of 'committing' a change to your repo sets of a trigger that tells Github to transform your notes into HTML and then publish them. The template that it will use to achieve this uses a static site builder called [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/). 
 
 ### Make Your Site Live
 
-Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
-
-![](assets/github-branch.png)
+Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch. ![](github-branch.png)
 
 Give it a minute or two, and your website will be visible at `your-user-name.github.io/name-of-repo`.
 
@@ -56,7 +53,7 @@ Use github.com upload files feature as described in 'Make Some Content, step 4' 
 
 ## Configuring your website
 
-If you want to change the look of your site, you'll need to consult the [mkdocs](https://www.mkdocs.org/) documentation and modify the mkdocs.yml file that you'll spot in the repository, as appropriate. I would recommend leaving this alone unless you already know what you're doing. But if you really want to learn, make an appointment to see me and I'll show you.
+If you want to change the look of your site, you'll need to consult the [mkdocs](https://www.mkdocs.org/) documentation and modify the mkdocs.yml file that you'll spot in the repository, as appropriate. I would recommend leaving this alone unless you already know what you're doing. But if you really want to learn, make an appointment to see me and I'll show you. You can study/copy my version, which you'll find at [the source repository for the class website](https://github.com/shawngraham/hist1900/blob/main/mkdocs.yml)
 
 ### How do I arrange notes as sections and pages?
 
