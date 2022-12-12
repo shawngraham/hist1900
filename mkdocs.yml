@@ -1,4 +1,14 @@
 site_name: HIST1900 @Carleton U Winter 2023 with Shawn Graham - The History of the Internet
+site_url: https://shawngraham.github.io/hist1900
+site_author: Shawn Graham
+site_description: >-
+  Course website for winter 2023 @ Carleton U, 'The History of the Internet'
+  with Prof. Shawn Graham, Dept of History
+
+# Repository
+repo_name: squidfunk/hist1900
+repo_url: https://github.com/shawngraham/hist1900
+
 theme:
     name: 'material'
 
