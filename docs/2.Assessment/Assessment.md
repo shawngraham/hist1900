@@ -23,7 +23,7 @@ graph LR
 - Third Evaluation of your Memex: 30% - **April 10**
 - Final Journey: 35% - **April 27**
 
-Work accepted until midnight on the relevant dates.
+Work accepted until midnight on the relevant dates. [Fill in this Google Form to notify me of the location of your work, and that your work is ready.](https://docs.google.com/forms/d/e/1FAIpQLSfmXvx4uUlFA8m5lHlLWw53FKlMunq3msaW1aTlCpiaycYRDQ/viewform?usp=sf_link)
 
 See the [[Personal Memex]] page for parameters and grading for the evaluations and the Final Journey.
 
