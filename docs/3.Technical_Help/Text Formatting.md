@@ -33,6 +33,11 @@ If you forget the space between the `#` and the text, congratulations, you've ma
 
 In the right-hand sidepane in Obsidian, you can also view a tag explorer to help you navigate your materials.
 
+You can make a link to another note in your vault by typing
+``[[`` and then scroll through the popup of note titles, or start typing the name of a new note you want to make at that spot; eg ``[[this note doesn't exist yet]]`` but if I clicked on that link in Obsidian I'd get a new note with that title.
+
+You can make a link to a website like this: `[link text](https://some.website.com)` changing up 'link text' and the url, obviously. **nb** there is no space between the square bracket bit and the parentheses.
+
 Within obsidian, you can drag and drop images right in. This will create a copy of the image inside your vault. Then, start typing:
 
 ```

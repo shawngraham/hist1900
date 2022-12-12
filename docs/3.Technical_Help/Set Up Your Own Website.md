@@ -16,7 +16,7 @@ I want you to use your own personal memex as a way to share your work online. We
 -   Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
 -   Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
 
-### Drag-and-drop method for everyone else
+## Drag-and-drop method for everyone else
 1.  Make a folder inside your Obsidian vault; call it 'website'. Any notes that you create that you want to share on the net will go into this folder for safekeeping (so you can find them easily on your machine.) 
 2. While logged into Github, create a **new github repository using this template** [here](https://github.com/jobindjohn/obsidian-publish-mkdocs). Click the green button at the top of that page (the i mage below shows you the green button to press) *or* click on this direct [this link](https://github.com/jobindjohn/obsidian-publish-mkdocs/generate).  This creates a copy under your Github.com username of repository pre-configured with everything to turn your notes into a working website. 
 ![[assets/use-this-template.png]]
@@ -25,7 +25,7 @@ I want you to use your own personal memex as a way to share your work online. We
 
 And now you're ready to go! When you eventually drag-and-drop note files onto that repository, Github will automatically build a website from them (that's what this template is configured to do). We'll talk about adding content in a moment, but note that this website built from your notes will be published at `<https://your-username.github.io/repo-name/>` . E.g., my username is `shawngraham` ; my user account is at `github.com/shawngraham`; this repo that I've just configured is called `demo`. I drag and drop content at `github.com/shawngraham/demo` ; Github will  *publish* this material at `shawngraham.github.io/demo`. Spot the way the URL is constructed? Your username goes first, then the domain, github.io (rather than .com!), and then after the slash the name of the repo.  
 
-### Make Some Content
+## Make Some Content
 1. **Newcomer**  In your Obsidian vault, make a new note in your 'website' folder; call it `index`. This will become the 'home' page of the website. Write some info - `Jo's Personal Memxex` etc.
 	
 2. Find this note on your machine (use Windows Explorer or Mac Finder or right-click on the file name in Obsidian's file list on the left side of your screen and select 'reveal in finder')
