@@ -1,6 +1,6 @@
 
 
-Reading an academic article is not like 'regular' reading. You don't start at the beginning and wait for the big reveal at the end.
+Reading an academic article is not like 'regular' reading. You don't start at the beginning and wait for the big reveal at the end. And then there's the parallel issue of [[How to Mark Up an Academic Article]].
 
 You read like a *predator.* You're after something. How you read the article on one day is *not* how you might read it another, because by then you want something different out of it. Generally, I read like this:
 
@@ -16,6 +16,7 @@ By the way, it can also be super helpful to make notes on terms, words, concepts
 !!! note
 	How I do things is not the only way; you will eventually develop your own style. But seeing as how this is a first year class, I want you to do it my way for now, so that you have a good basis for developing your own emerging style. The key thing is that you're documenting and linking your thinking.
 
+Finally, look at the footnotes. Look at the references, the bibliography. Who does this work _cite?_ ([Citation is a gift](https://footnotesblogcom.wordpress.com/2018/07/07/guest-post-citation-is-a-gift-punking-accounting-in-hautalk/).) **Add** to your own reading list from such things; drop the citations into places like [scholar.google.com](https://scholar.google.com) (but not *only* google scholar.) Who has *cited* this piece? Look up book reviews, read the subsequent literature... Reading is **hard work**. That's why we're taking it seriously in this course.
 
 ## Reading Historical Scholarship
 

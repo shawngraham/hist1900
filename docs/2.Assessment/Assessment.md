@@ -25,7 +25,7 @@ graph LR
 
 Work accepted until midnight on the relevant dates.
 
-See the [[Personal Memex]] page for parameters and grading for the evaluations and the Final Journal.
+See the [[Personal Memex]] page for parameters and grading for the evaluations and the Final Journey.
 
 ## Engagement
 
