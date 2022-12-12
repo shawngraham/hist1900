@@ -1,5 +1,9 @@
 In this assignment, which unrolls over the duration of the entire term, you will create your own personal 'memex' of a kind first described by [Vannevar Bush in his article, 'As We May Think.'](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) published in The Atlantic in 1945.
 
+**You will need to download and install [obsidian.md](https://obsidian.md) to do this. It is free**.
+
+I will walk you through how to use this software both in class, and through [[1.A Demo Obsidian Vault|copious documentation]].
+
 ## Build your Memex
 
 This involves:
