@@ -13,3 +13,22 @@ Put the vault (i.e., 'folder') somewhere on your machine that is sensible. _Don'
 
 Fire up Obsidian; select 'open vault' and select the folder you just downloaded. When you open it the first time, Obsidian will ask you if you trust the author (i.e., me). Say yes.
 
+## Contents of the vault
+
+This vault has been organized with subfolders like so:
+
+```
+|-_ancillary_code_do_not_touch
+|-_note_templates
+|-inbox
+|-source_notes
+|-atomic_notes
+|-media
+|-guidance
+|-website
+	|-index
+```
+
+Inside `ancillary_code_do_not_touch` are some special templates that use a bit of javascript to handle retrieving annotations from [Hypothes.is](https://hypothes.is) and also from pdfs annotated within[Zotero](https://zotero.org)
+
+## A Potential Workflow
