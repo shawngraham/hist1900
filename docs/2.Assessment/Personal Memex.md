@@ -19,7 +19,7 @@ This involves:
 Then:
 
 + you will choose to make a subset (or all, it's up to you) of these notes available online periodically, for our review.
-+ this can be done either publically or privately: [[Set Up Your Own Website|Pushing your materials online at a public location]] | [[Making material available online using a private repository]]
++ this can be done either publically or privately: [[2.Set Up Your Online Memex|Pushing your materials online at a public location]] | [[3.Making Material Available Online Using a Private Repository]]
 + note that you do not have to use your real name if you choose to make things public.
 + I will share with you the URLs of others' memexes and I will encourage you to make external links to ideas your peers have made.
 
@@ -29,7 +29,8 @@ Remember, not everything in your personal memx/vault has to go into the online v
 
 ### Evaluation
 
-Points that we look for as we evaluate your memex as it develops:
+Elements that we look for as we evaluate your memex as it develops:
+
 - are notes well documented? have you used the templates to good effect?
 - are there sensible interlinkages? 
 - is there evidence of careful, reflexive thinking? Is there evidence of taking in the discussions, making connections between what you have done/heard/read? Explicitly cite materials that underpin your thinking using Harvard author-date contextual citations or link to the items directly in your Zotero library
@@ -75,7 +76,7 @@ At the end of the course, you will install the 'journey' plugin from the Obsidia
 - you will identify a starting note and a finishing note that will enable you to answer the question, '**what is the most powerful thing you've learned in this course**'. 
 - You copy the results of that path as a list of links. 
 - You will make a new note into which you paste that list of links.
-- You explain the path to your reader by writing new text woven around these links that explains how the path unfolds. You may wish [[to embed blocks from the individual notes]].
+- You explain the path to your reader by writing new text woven around these links that explains how the path unfolds. You may wish [[7.to embed blocks from the individual notes]].
 - You will make sure that every note in that path is pushed to the online version of your memex. 
 - You push this note to your online memex, and add a link to it from your `index.md` note called `0_Final Journey_1` - this will make it easy for us to find it.
 - At the beginning of the course, in the tutorial, you indicated to me what you wanted to get out of this class. Compile another Journey through your notes to assess that desire: was it accomplished? If not, what is lacking, and why? Explain, as you did for the previous question. Push the resulting note to your online memex, add a link to it from your index note, and call it `0_Final Journey_2`.

@@ -26,7 +26,7 @@ My goals for you are that you will develop
 
 ### Get Started
 
-Before class begins in January, [please complete the tutorial level](https://shawngraham.github.io/tutorial-levels/src/hist1900c-tutorial.html) (5% of your grade). The tutorial will walk you through setting up your Github account, and installing (and using) Obsidian on your machine. Then, you can try to [[Set Up Your Own Website]] using Obsidian and Github in tandem.
+Before class begins in January, [please complete the tutorial level](https://shawngraham.github.io/tutorial-levels/src/hist1900c-tutorial.html) (5% of your grade). The tutorial will walk you through setting up your Github account, and installing (and using) Obsidian on your machine. Then, you can try to [[2.Set Up Your Online Memex]] using Obsidian and Github in tandem.
 
 Make sure you read through and understand these materials: 
 
@@ -38,6 +38,6 @@ Make sure you read through and understand these materials:
 
 _[Photo by Elly Filho, Unsplash.com](https://unsplash.com/photos/uKB4O22KMMk)_
 
-_Site is built using [[colophon|mkdocs.]]_
+_Site is built using [[8.colophon|mkdocs.]]_
 
 ![](https://networks.skewed.de/draw/internet_top_pop/Arpanet19706) _The ARPAnet in 1970_ via [https://networks.skewed.de/net/internet_top_pop](https://networks.skewed.de/net/internet_top_pop) The datasets can be opened with [graph-tool](https://graph-tool.skewed.de/).
