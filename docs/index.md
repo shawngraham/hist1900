@@ -26,11 +26,11 @@ My goals for you are that you will develop
 
 ### Get Started
 
-Before class begins in January, please complete the tutorial level (5% of your grade). The tutorial will walk you through setting up your Github account, and installing (and using) Obsidian on your machine. Then, you can try to [[Set Up Your Own Website]] using Obsidian and Github in tandem.
+Before class begins in January, [please complete the tutorial level](https://shawngraham.github.io/tutorial-levels/src/hist1900c-tutorial.html) (5% of your grade). The tutorial will walk you through setting up your Github account, and installing (and using) Obsidian on your machine. Then, you can try to [[Set Up Your Own Website]] using Obsidian and Github in tandem.
 
 Make sure you read through and understand these materials: 
 
-[[1.Course Policies]]
+[[1.Policies]]
 
 [[2.Schedule]]
 
