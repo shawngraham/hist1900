@@ -6,7 +6,7 @@ site_description: >-
   with Prof. Shawn Graham, Dept of History
 
 # Repository
-repo_name: squidfunk/hist1900
+repo_name: shawngraham/hist1900
 repo_url: https://github.com/shawngraham/hist1900
 
 theme:
