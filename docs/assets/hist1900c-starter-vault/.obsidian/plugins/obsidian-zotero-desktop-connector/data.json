@@ -1,0 +1,30 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "1-inbox",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Citation",
+      "format": "formatted-citation"
+    },
+    {
+      "name": "Full Reference",
+      "format": "formatted-bibliography",
+      "cslStyle": "journal-of-computer-applications-in-archaeology"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Annotation Extraction",
+      "outputPathTemplate": "1-inbox/@{{citekey}}.md",
+      "imageOutputPathTemplate": "1-inbox/@{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "_ancillary_code_do_not_touch/zot-import.md",
+      "cslStyle": "journal-of-computer-applications-in-archaeology"
+    }
+  ],
+  "exeVersion": "1.0.14",
+  "shouldShowCiteSuggest": true
+}

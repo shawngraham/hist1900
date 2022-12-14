@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "920a73d6a1d7ef9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "14947057ab46018b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89a39b540c6e6def",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Start Here.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dbcd71f8807606fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6ec448ddffebf26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "251187ac598c8762",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20c7424c858f15e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d22a7b62e5ce9c3e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8ce0655ba33b3b34",
+    "type": "split",
+    "children": [
+      {
+        "id": "995b2e9fa9afcc79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "732653f7364a4e24",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_Start Here.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c755ef86e9bfb8f9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_Start Here.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d06735a20e4256df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b398a849beacd076",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_Start Here.md"
+              }
+            }
+          },
+          {
+            "id": "f1fcfa69a17d44e0",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "89a39b540c6e6def",
+  "lastOpenFiles": [
+    "guidance/2_set up Zotero.md",
+    "guidance/1_getting started.md",
+    "guidance/4.refactor the annotations into atomic notes.md",
+    "_note_templates/idea_note_template.md",
+    "_note_templates/atomic_note_template.md",
+    "guidance/3. making new notes.md",
+    "_note_templates/source_note_template.md",
+    "_Start Here.md",
+    "website/_index.md",
+    "guidance/Some other resources.md"
+  ]
+}
