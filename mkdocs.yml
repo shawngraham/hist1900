@@ -89,6 +89,7 @@ plugins:
   - search
   - roamlinks 
   - mermaid2
+  - mkdocs-video
 
 extra_javascript:
   - javascripts/mathjax.js
