@@ -27,6 +27,8 @@ Work accepted until midnight on the relevant dates. [Fill in this Google Form to
 
 See the [[Personal Memex]] page for parameters and grading for the evaluations and the Final Journey.
 
+The 'Final Journey' is to be considered as a 'take home exam'.
+
 ## Engagement
 
 I’m not grading ‘participation’. Instead, I’m recommending that you come to class **engaged**. (Thank you to [Mark Sample](https://twitter.com/samplereality/status/1564016056208949249) for sharing his thoughts on what engagement means). Let’s understand ‘engagement’ to mean things like -

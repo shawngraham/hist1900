@@ -1,1 +1,1 @@
-Watch this space for course updates and corrections.
+Watch this space for course updates, corrections, and interesting news/events/articles as I find 'em.
