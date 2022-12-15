@@ -41,4 +41,4 @@ _[Photo by Elly Filho, Unsplash.com](https://unsplash.com/photos/uKB4O22KMMk)_
 
 _Site is built using [[8.colophon|mkdocs.]]_
 
-![](https://networks.skewed.de/draw/internet_top_pop/Arpanet19706) _The ARPAnet in 1970_ via [https://networks.skewed.de/net/internet_top_pop](https://networks.skewed.de/net/internet_top_pop) The datasets can be opened with [graph-tool](https://graph-tool.skewed.de/).
+![](https://networks.skewed.de/draw/internet_top_pop/Arpanet19706) _The ARPAnet in 1970_ via [https://networks.skewed.de/net/internet_top_pop](https://networks.skewed.de/net/internet_top_pop) The datasets can be opened with [graph-tool](https://graph-tool.skewed.de/). [[Network Maps of The Evolving Internet|Or make and interrogate your own from the same data.]]
