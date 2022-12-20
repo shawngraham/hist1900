@@ -25,7 +25,12 @@ As I said, I've already pre-configured this vault with everything you need to im
 In Obsidian, make a new note with cmd+n or ctrl+n.
 
 Then, hit cmd+p or ctrl+p to open the 'command panel'. ![command-panel.png](https://github.com/shawngraham/obsidian-hist1900c-student-vault/blob/main/_media/command-panel.png?raw=true) 
-Start typing 'zotero'. It will bring you up a series of commands;![zotero-commands.png](https://github.com/shawngraham/obsidian-hist1900c-student-vault/blob/main/_media/zotero-commands.png?raw=true) the two that are most useful for us (you can explore the others later) are 'Annotation Extraction' and 'Full Reference'. Select 'Full Reference'. The red zotero citation search bar will appear; start typing the name of a paper you might have in there - eg, B..U..S.. H and then select the reference. ^78e9e7
+
+Start typing 'zotero'. It will bring you up a series of commands;
+
+![zotero-commands.png](https://github.com/shawngraham/obsidian-hist1900c-student-vault/blob/main/_media/zotero-commands.png?raw=true) 
+
+the two that are most useful for us (you can explore the others later) are 'Annotation Extraction' and 'Full Reference'. Select 'Full Reference'. The red zotero citation search bar will appear; start typing the name of a paper you might have in there - eg, B..U..S.. H and then select the reference. ^78e9e7
 
 Boom! The full reference appears.
 

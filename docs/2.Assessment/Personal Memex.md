@@ -23,7 +23,7 @@ This involves:
 Then:
 
 + you will choose to make a subset (or all, it's up to you) of these notes available online periodically, for our review.
-+ this can be done either publically or privately: [[2.Set Up Your Online Memex|Pushing your materials online at a public location]] | [[3.Making Material Available Online Using a Private Repository]]
++ this can be done either publically or privately: [[2.Set Up Your Online Memex|Pushing your materials online at a public location]] | [[3.Making Material Available Online Using a Private Repository|or at a private location]]
 + note that you do not have to use your real name if you choose to make things public.
 + I will share with you the URLs of others' memexes and I will encourage you to make external links to ideas your peers have made.
 
