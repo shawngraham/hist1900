@@ -41,6 +41,7 @@ Elements that we look for as we evaluate your memex as it develops:
 - Are you using Hypothes.is to engage with the readings and the observations of your peers - do you link and make notes related to individual hypothesis annotations? Do you use the hypothes.is importer to ingest annotations from the web into your personal meme?
 - is there evidence for how any feedback has been considered, adopted, adapted?
 - Is there evidence for a developing sophistication in the work?
+- There may well be some small **bonuses** for finding and making notes from sources that explicitly deal with the history of the internet in Canada and related themes.
 
 Assessment will be along the spectrum “unsatisfactory - satisfactory - exceptional”. Numerically, this translates as:
 
