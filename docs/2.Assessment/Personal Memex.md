@@ -50,7 +50,7 @@ Assessment will be along the spectrum “unsatisfactory - satisfactory - excepti
 
 ### First Assessment
 
-- have at least five sources adequately translated into note form
+- have at least five **sources** adequately translated into note form
 	- notes with the bibliographic info, general summary
 	- atomic notes as appropriate
 	- interlinkages
@@ -62,7 +62,7 @@ Assessment will be along the spectrum “unsatisfactory - satisfactory - excepti
 	- atomic notes as appropriate
 	- interlinkages
 	- links outwards to others' memexes, or hypothesis permalinked annotations
-	- maps of content as appropriate providing a useufl'way in' to your memex as suits your own research interests
+	- maps of content as appropriate providing a useful l'way in' to your memex as suits your own research interests
 
 ### Third Assessment
 - have at least another five sources adequately translated into note form
