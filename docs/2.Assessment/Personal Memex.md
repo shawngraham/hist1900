@@ -81,10 +81,10 @@ At the end of the course, you will install the 'journey' plugin from the Obsidia
 - you will identify a starting note and a finishing note that will enable you to answer the question, '**what is the most powerful thing you've learned in this course**'. 
 - You copy the results of that path as a list of links. 
 - You will make a new note into which you paste that list of links.
-- You explain the path to your reader by writing new text woven around these links that explains how the path unfolds. You may wish [[7.To embed blocks from the individual notes]].
+- You explain the path to your reader by writing new text woven around these links that explains how the path unfolds. You may wish [[7.To embed blocks from the individual notes|to embed blocks from the individual notes.]].
 - You will make sure that every note in that path is pushed to the online version of your memex. 
 - You push this note to your online memex, and add a link to it from your `index.md` note called `0_Final Journey_1` - this will make it easy for us to find it.
-- At the beginning of the course, in the tutorial, you indicated to me what you wanted to get out of this class. Compile another Journey through your notes to assess that desire: was it accomplished? If not, what is lacking, and why? Explain, as you did for the previous question. Push the resulting note to your online memex, add a link to it from your index note, and call it `0_Final Journey_2`.
+- At the beginning of the course, in the tutorial, you indicated to me what you wanted to get out of this class. **Compile another Journey through your notes to assess that desire: was it accomplished? If not, what is lacking, and why?** Explain, as you did for the previous question. Push the resulting note to your online memex, add a link to it from your index note, and call it `0_Final Journey_2`.
 
 The 'final journey' notes will show me a number of things. They will demonstrate how your thinking has evolved in the course; they will demonstrate how you make the explicit connections between the materials we've studied and your thinking on these matters. You will notice that these are not an essays. They are rather more like an evolving personal wikipedia, and these 'final journey' notes give me a path into your thought.
 
