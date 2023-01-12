@@ -22,7 +22,7 @@ There is a video on the [[Import Your Hypothesis Annotations]] page showing the 
 
 This seems to be happening to folks on PCs. Two places to check. 
 
-+ check that the 'templater' configuration is set up as in the screenshots above for the previous question.
++ check that the 'templater' configuration is set up as in the screenshots above for the previous question - it should be looking for the hypothesis.md code file in the folder `_ancillary_code_do_not_touch`
 + check that the **templates** configuration is set up as in the screenshot below where the `template folder location` is set to `_note_templates`:
 
 ![[Screen Shot 2023-01-12 at 4.46.51 PM.png]]
