@@ -17,6 +17,16 @@ Now you're configured, and when you type ctrl+shift+h you'll get the hypothesis 
 
 There is a video on the [[Import Your Hypothesis Annotations]] page showing the whole process in action for how this tool is supposed to work.
 
+
+## I get the error `couldn't retrieve template files from templates folder _complex templates_`
+
+This seems to be happening to folks on PCs. Two places to check. 
+
++ check that the 'templater' configuration is set up as in the screenshots above for the previous question.
++ check that the **templates** configuration is set up as in the screenshot below where the `template folder location` is set to `_note_templates`:
+
+![[Screen Shot 2023-01-12 at 4.46.51 PM.png]]
+
 ## When I try the Zotero annotation extraction, I get an empty bibliography error
 
 There's a couple of different things that might've gone wrong here. First thing, go to the community plugins general page (hit the cogwheel icon to bring up preferences, then click on 'community plugins' under options at the top left of the dialogue box). 
