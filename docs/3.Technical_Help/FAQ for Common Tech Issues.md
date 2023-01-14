@@ -35,13 +35,24 @@ Click on the button that says 'check for updates'.
 
 If it finds updates, click on 'update all'.
 
-That should normally resolve the problem. 
-
 **NB!!!** When you search for the zotero - extract annotations command and run it, **check the `1-inbox` folder when it seems to finish**. If it has been successful, you'll find a note there with all your annotations extracted. *You might still get an error message* but this is one you can ignore.
 
 The other zotero commands require you to have a note open and the cursor blinking where you want to insert a bibliographic reference, etc. So if you run one of those commands *without* an open note, you'll get an error.
 
 There are two videos on the [[Zotero]] page showing two different ways to get your annotations using the Zotero extractor commands.
+
+## When I try to use the Zotero - Full Reference command, I get an empty bibliography error
+
+This one's my fault. My code for zotero extraction is set up to format things in the format preferred by the Journal of Computer Applications in Archaeology. There are two ways to solve this.
+
+With Zotero turned on and running on your machine, click on this link: [https://www.zotero.org/styles/journal-of-computer-applications-in-archaeology](https://www.zotero.org/styles/journal-of-computer-applications-in-archaeology) A dialogue box will open asking if you want to add this to your citations styles in Zotero. Say yes.
+
+*If that link doesn't prompt a dialogue box* you'll find instead a file in your download files called `journal-of-computer-applications-in-archaeology.csl`. With zotero open in the background, double-click on that file; your computer will know to use Zotero to open it and will ask you if you want to add that style to Zotero. Say yes.
+
+This should solve the problem.
+
+Your alternative is to open the zotero integration plugin configuration in Obsidian. Hit the cogwheel, bottom left, the scroll down until you see zotero integration. The, under 'Citation Formats' there are two boxes where you can set the style for making a citation, and for making a full reference. Start typing where it says 'Journal of Computer Applications in Archaeology' to change it to eg. Chicago, APA, Turabian, whatever. Then hit the 'x' when you're done. Note - you gotta make sure in Zotero that whatever you change it to is already there. But Chicago, APA, Turabian should probably be there by default. If they're not, you'll get the same error message again.  You can search for citation styles [here](https://www.zotero.org/styles/).
+
 
 ## The browser won't let me download the Better BibTex plugin for Zotero 
 
