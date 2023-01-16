@@ -61,3 +61,29 @@ Different browsers have different default security settings. Try a different bro
 ## My Mac won't let me install Obsidian or Zotero
 
 Sometimes Mac security settings try to stop you from opening software downloaded from places other than the Mac store. Download the file, and then find it on your machine using Finder. Hold down the ctrl button while clicking on the file. A contextual menu will appear; one of the options will be 'open'. A security warning will appear, but it will have a button on it saying something like 'open anyway'. Click and you're good.
+
+## When I use the template to create the 'memex', nothing seems to happen. There is no `gh-pages` branch.
+
+In the instructions for [setting up your memex](https://shawngraham.github.io/hist1900/3.Technical_Help/2.Set%20Up%20Your%20Online%20Memex/) (ie, putting some of your notes online for us to view them) there is a step:
+
+-   Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
+
+If you don't see `gh-pages` as an option under the drop down, I need you to check something. Click on the 'actions' button. If you see this:
+
+![[actions-error.png|400]]
+
+it means that part of the automatic process for building your site got stopped. To fix this, click on
+
++ settings -> then actions, then under the drop down, 'general'
+
+![[actions.png]]
+
+and scroll to the bottom:
+
+![[actions2.png]]
+
+and tick off the 'read and write permissions' and 'allow github actions to create and approve pull requests'.
+
+Then hit save.
+
+At this point, you can continue with the memex set up (you can click on the 'docs' folder, add new items in there, and change the settings -> pages to build from the 'gh-pages' branch.)
