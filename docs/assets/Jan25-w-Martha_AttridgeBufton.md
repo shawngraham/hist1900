@@ -24,6 +24,8 @@ The value of note taking: An historian's method
 
 - Read Judith Walkowitz's essay On taking notes: [https://www.historians.org/research-and-publications/perspectives-on-history/january-2009/on-taking-notes](https://www.historians.org/research-and-publications/perspectives-on-history/january-2009/on-taking-notes)
 
+- also see [this](https://docs.google.com/document/d/12-GUKHCQN3zKh88-QA2kpjF048lykLX4t0Qrlv5Rgqo/edit)
+
 - In small groups, identify the key components of Walkowitz's method of historical note taking
 
 - Create an Obsidian note that includes these key elements
