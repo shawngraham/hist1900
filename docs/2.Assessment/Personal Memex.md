@@ -63,7 +63,7 @@ Assessment will be along the spectrum “unsatisfactory - satisfactory - excepti
 	- atomic notes as appropriate
 	- interlinkages
 	- links outwards to others' memexes, or hypothesis permalinked annotations
-	- maps of content as appropriate providing a useful l'way in' to your memex as suits your own research interests
+	- maps of content as appropriate providing a useful 'way in' to your memex as suits your own research interests
 
 ### Third Assessment
 - have at least another five sources adequately translated into note form
@@ -72,7 +72,7 @@ Assessment will be along the spectrum “unsatisfactory - satisfactory - excepti
 	- interlinkages
 	- links outwards to others' memexes, or hypothesis permalinked annotations
 	- useful tag structure implemented
-	- maps of content as appropriate providing a useufl'way in' to your memex as suits your own research interests
+	- maps of content as appropriate providing a useful 'way in' to your memex as suits your own research interests
 
 ## The Final Journey
 
