@@ -37,19 +37,25 @@ Things that we really like that we *didn't* ask for **as part of the minimum req
 
 **So we're looking here at a C+.**
 
-Things the student could do to push this example memex towards a B+ or an A:
+Things the student could do to push this example memex towards a B+ or an A (keeping in mind the extra things they already did):
 
 + fully process the annotations
 + finish the `#todos`
 
 Things the student could do to push this towards an A:
 
-+ all of the above, plus (amongst other things and not necessarily limited to this):
++ **all of the above**, plus (amongst other things and not necessarily limited to this):
 + use the canvas feature to visually mindmap how ideas/observations/sources interrelated
 	+ our online memex doesn't support canvas, so the student would have to take a screenshot and then add that screenshot to the memex, then embed it in a note with `![[canvas screenshot file.png]]`
 + a use of the graph feature to visualize the linkages that exist; again, it'd have to be screenshotted
 + linkages to other students' memexes as appropriate
 + linkages to other web resources, including video, audio, podcasts, the blogposts of academics or research projects, etc.
+
+!!! note
+	**A word about aesthetics**: You'll notice that the actual *look* of your memex isn't uppermost in our mind, or part of grading criteria. 
+	We **do encourage** you to think at least about line spacing - things that look ok in Obsidian sometimes don't translate well to the online version. Most of the time, just adding space between paragraphs and headings will solve the issue (see the screenshot below). There **are** things you can do to improve the look and feel of your memex - adding images, adjusting the CSS, adjusting the mkdocs.yml file and so on. 
+	These are the things you might choose to do in addition that *might* lead to a bit of a bonus; you might make a note of what you've done and include that. 
+	**WARNING: Do not adjust the mkdocs.yml file unless you know what you're doing**. 
 
 As we move forward, you'll receive feedback on your memex, and so demonstrating that you've taken that feedback on board will also become one of the considerations that we use in evaluating your work.
 
