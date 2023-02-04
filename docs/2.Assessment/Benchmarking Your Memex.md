@@ -51,6 +51,8 @@ Things the student could do to push this towards an A:
 + linkages to other students' memexes as appropriate
 + linkages to other web resources, including video, audio, podcasts, the blogposts of academics or research projects, etc.
 
+Inclusion of your lecture notes from this class, *meaningfully integrated* and also tagged with `#lecture` etc might also push you towards a bit of a bonus.
+
 !!! note
 	**A word about aesthetics**: You'll notice that the actual *look* of your memex isn't uppermost in our mind, or part of grading criteria. 
 	We **do encourage** you to think at least about line spacing - things that look ok in Obsidian sometimes don't translate well to the online version. Most of the time, just adding space between paragraphs and headings will solve the issue (see the screenshot below). There **are** things you can do to improve the look and feel of your memex - adding images, adjusting the CSS, adjusting the mkdocs.yml file and so on. 
