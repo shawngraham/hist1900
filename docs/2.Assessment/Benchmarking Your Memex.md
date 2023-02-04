@@ -23,16 +23,17 @@ You'll see that it does have
 	- there are interlinkages; there is a sensible structure with `sources` and `thoughts` in separate folders (`atomic` notes and `idea` notes are clumped together in `thoughts` which is ok, since every atomic or idea note is tagged, making them easy to find) and each subfolder has its own `index` note
 	- there is a map of content note providing a way into the memex.
 
-So everything we asked for is *there*. What makes this more of a C than a B is that :
+So everything we asked for is *there*. What makes this more of a C- than a B is that :
 
 - there are very few observation/atomic notes 
 	- the student has extracted them from Zotero where they did the annotations but they are mostly just quotes, just highlights. The student needs to do a bit more gardening and figure out why they highlighted what they did, what the observation is that they're making
+	- there is no coherence to the sources; they seem to be grabbed at random (perhaps there is a rhyme/reason to them, but if so, that should be explained perhaps in the map of content)
 
 Things that we really like that we *didn't* ask for **as part of the minimum requirements** that push this back towards a B:
 
 - the student has generated some key phrases based on their observations and make a search at scholar.google.com which they then link to, as something they'll do in the future
 - in their 'thoughts' subfolder, their `index` note separates out the atomic notes from the idea notes
-- in the source note for As We May Think, the student also makes a link outwards to the Wikipedia article that details Bush's life
+- in the source note for As We May Think, the student also makes a link outwards to the Wikipedia article that details Bush's life; links alone are handy, and it would be better if there was an indication as to the *why* of that linking
 - used the tag `todo` to signal things that need to be finished.
 
 **So we're looking here at a C+.**
@@ -40,6 +41,7 @@ Things that we really like that we *didn't* ask for **as part of the minimum req
 Things the student could do to push this example memex towards a B+ or an A (keeping in mind the extra things they already did):
 
 + fully process the annotations
++ make the *why* behind *these* sources in particular apparent
 + finish the `#todos`
 
 Things the student could do to push this towards an A:
@@ -48,10 +50,10 @@ Things the student could do to push this towards an A:
 + use the canvas feature to visually mindmap how ideas/observations/sources interrelated
 	+ our online memex doesn't support canvas, so the student would have to take a screenshot and then add that screenshot to the memex, then embed it in a note with `![[canvas screenshot file.png]]`
 + a use of the graph feature to visualize the linkages that exist; again, it'd have to be screenshotted
-+ linkages to other students' memexes as appropriate
-+ linkages to other web resources, including video, audio, podcasts, the blogposts of academics or research projects, etc.
++ thoughtful linkages to other students' memexes as appropriate
++ thoughtful linkages to and/or embedding of other web resources, including video, audio, podcasts, the blogposts of academics or research projects, etc.
 
-Inclusion of your lecture notes from this class, *meaningfully integrated* and also tagged with `#lecture` etc might also push you towards a bit of a bonus.
+Inclusion of your lecture notes from this class, *meaningfully integrated* and also tagged with `#lecture` etc might also push you towards a bit of a bonus; inclusion of lecture notes from *other* classes and similarly tagged are worthwhile too. Also, sources that bring a *canadian* perspective are particularly welcome.
 
 !!! note
 	**A word about aesthetics**: You'll notice that the actual *look* of your memex isn't uppermost in our mind, or part of grading criteria. 
@@ -59,7 +61,7 @@ Inclusion of your lecture notes from this class, *meaningfully integrated* and a
 	These are the things you might choose to do in addition that *might* lead to a bit of a bonus; you might make a note of what you've done and include that. 
 	**WARNING: Do not adjust the mkdocs.yml file unless you know what you're doing**. 
 
-As we move forward, you'll receive feedback on your memex, and so demonstrating that you've taken that feedback on board will also become one of the considerations that we use in evaluating your work.
+**As we move forward, you'll receive feedback on your memex, and so demonstrating that you've taken that feedback on board will also become one of the considerations that we use in evaluating your work.**
 
 ![[inside-demo-memex.png]]
 
