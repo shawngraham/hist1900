@@ -6,12 +6,16 @@ The first [[Assessment]] is coming up for your [[2.Set Up Your Online Memex|meme
 	- interlinkages
 	- a map of content note providing some initial structure, an initial 'way in' to your memex
 
-> [!info]
-**Having these elements present in your memex is the bare minimum for what a 'satisfactory' might be.**
+!!! note
+
+    **Having these elements present in your memex is the bare minimum for what a 'satisfactory' might be.**
+
+
 
 **If you'll recall, a 'satisfactory' is somewhere in the range of a C or a B. Go have a look at this online memex: [https://shawngraham.github.io/hist1900c-demo-memex/](https://shawngraham.github.io/hist1900c-demo-memex/) What grade would you give it? **
 
 You'll see that it does have
+
 - five sources
 	- each source has the bibliographic info
 	- each source has summary and key take aways
@@ -42,7 +46,7 @@ Things the student could do to push this towards an A:
 
 + all of the above, plus (amongst other things and not necessarily limited to this):
 + use the canvas feature to visually mindmap how ideas/observations/sources interrelated
-	+ our online memex doesn't support canvas, so the student would have to take a screenshot and then add that screenshot to the memex, then embed it in a note with `![[canvas screenshot file]]`
+	+ our online memex doesn't support canvas, so the student would have to take a screenshot and then add that screenshot to the memex, then embed it in a note with `![[canvas screenshot file.png]]`
 + a use of the graph feature to visualize the linkages that exist; again, it'd have to be screenshotted
 + linkages to other students' memexes as appropriate
 + linkages to other web resources, including video, audio, podcasts, the blogposts of academics or research projects, etc.
