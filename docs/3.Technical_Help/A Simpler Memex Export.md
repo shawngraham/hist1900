@@ -60,10 +60,10 @@ Now that was easy!
 
 When you go to update your material, the easiest approach is to
 
-1. make sure your note is in the subfolder where you gather together the materials you want to make online (this is so the eventual interlinkages between notes work properly)
-2. make sure your memex-export subfolder is empty again
-3. re-export your subfolder as before
-4. on github **make sure you click on 'branches' and select 'gh-pages' before you drag-and-drop your materials**
+1. make sure your note is in the subfolder in your Obsidian vault where you gather together the materials you want to make online (this is so the eventual interlinkages between notes work properly)
+2. make sure your memex-export subfolder on your desktop is empty again
+3. in obsidian re-export your subfolder as before (right-click, hit export as html)
+4. on github **make sure you click on 'branches' and select 'gh-pages'** THEN you drag-and-drop your materials in.
 
 ![[make-sure-gh-pages-branch.png]]
 
