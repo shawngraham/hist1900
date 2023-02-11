@@ -67,9 +67,10 @@ Now that was easy!
 
 ## Optional
 
-**OPTIONAL** See that original 'readme' file in your repo? While your branch is set to `gh-pages` you can click on that filename, then click on the pencil icon. This will let you edit that file. Change the filename to `index.md` and then add this markdown link: `[memex](/website)`
+**OPTIONAL** See that original 'readme' file in your repo? While your branch is set to `gh-pages` you can click on that filename, then click on the pencil icon. This will let you edit that file.
 
-![[update-index.png|400]]
+Change the filename to `index.md` and then add this markdown link: `[memex](website)`
+
 
 ## Updating your content
 
