@@ -82,11 +82,9 @@ When you go to update your material, the easiest approach is to
 1. make sure your new material is in the subfolder in your Obsidian vault where you gather together the materials you want to make online, ie, the `website` folder in Obsidian (this is so the eventual interlinkages between notes work properly)
 2. make sure your memex-export subfolder on your **desktop** is empty (delete the subfolder inside it)
 3. in **obsidian** re-export your `website` subfolder as before (right-click, hit export as html)
-4. on github **make sure you click on 'branches' and select 'gh-pages'**. 
+4. on github **make sure you click on 'branches' and select 'gh-pages'**.  (see illustration below)
 5. THEN you drag-and-drop the generated export folder (which is in `memex-export` folder on your desktop, right? and is called `website`)  into github
 
 ![[make-sure-gh-pages-branch.png]]
 
 
-
-(for those who are interested, you can set the default branch of your repository to `gh-pages` by following [these instructions](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch))
