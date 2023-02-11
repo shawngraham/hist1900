@@ -33,7 +33,7 @@ In the pop-up, make sure you turn on these options:
 
 ![[export-to-html-last-settings.png]]
 
-- Hit the 'export' button. It will ask you which folder to save everything to; select that new empty folder I suggested you put on your desktop.
+- Hit the 'export' button. It will ask you which folder to save everything to; select that new empty folder I suggested you put on your desktop, ie `memex-export`.
 
 A lot of stuff will seem to happen as the plugin pages through your notes, turning each one into nicely formed html.
 
@@ -47,7 +47,7 @@ A lot of stuff will seem to happen as the plugin pages through your notes, turni
 
 ![[new-repo-to-make.png]]
 
-- drag and drop the entire `website` *folder* onto your new repository. You'll know you've got the right thing because you'll see filenames as it uploads that say things like `/website/@vannevarbush.html`
+- drag and drop **the entire `website` *folder*** onto your new repository. You'll know you've got the right thing because you'll see filenames as it uploads that say things like `/website/@vannevarbush.html`
 - hit the green commit button.
 
 Ok, one last step:
@@ -71,14 +71,16 @@ Now that was easy!
 
 Change the filename to `index.md` and then add this markdown link: `[memex](website)`
 
+Also, under settings -> branches you can switch the default branch to `gh-pages` but only do this if you know what you're doing.
+
 
 ## Updating your content
 
 When you go to update your material, the easiest approach is to
 
-1. make sure your note is in the subfolder in your Obsidian vault where you gather together the materials you want to make online (this is so the eventual interlinkages between notes work properly)
-2. make sure your memex-export subfolder is empty again
-3. in obsidian re-export your website subfolder as before (right-click, hit export as html)
+1. make sure your new material is in the subfolder in your Obsidian vault where you gather together the materials you want to make online, ie, the `website` folder in Obsidian (this is so the eventual interlinkages between notes work properly)
+2. make sure your memex-export subfolder on your **desktop** is empty (delete the subfolder inside it)
+3. in **obsidian** re-export your `website` subfolder as before (right-click, hit export as html)
 4. on github **make sure you click on 'branches' and select 'gh-pages'**. 
 5. THEN you drag-and-drop the generated export folder (which is in `memex-export` folder on your desktop, right? and is called `website`)  into github
 
