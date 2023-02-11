@@ -87,3 +87,9 @@ and tick off the 'read and write permissions' and 'allow github actions to creat
 Then hit save.
 
 At this point, you can continue with the memex set up (you can click on the 'docs' folder, add new items in there, and change the settings -> pages to build from the 'gh-pages' branch.)
+
+## When I use the template to create the 'memex', nothing seems to happen. There *is* a `gh-pages` branch but the build fails anyway
+
+Please, check your settings > pages and DO NOT CHANGE the part that says 'root'. Leave it like this:
+
+![[build-from-root.png]]
