@@ -5,7 +5,7 @@ A new plugin for Obsidian has just been released that can turn your individual n
 
 But if you'd like to try something else.... read on.
 
-This is what you'll end up with: [https://shawngraham.github.io/simpler-memex/](https://shawngraham.github.io/simpler-memex/)
+This is what you'll end up with: [https://shawngraham.github.io/simpler-memex/](https://shawngraham.github.io/simpler-memex/website)
 
 ![[simpler-memex-screenshot.png]]
 
@@ -61,7 +61,7 @@ Ok, one last step:
 
 Github will copy all of your html from the `main` branch - where you first uploaded everything, and will start to make all of your html files available online. Congratulations, you're done! 
 
-You can click on the 'actions' button to see when it's finished, but your memex will now be online  at an address following this pattern: `your-username.github.io/website/name-of-your-repository`
+You can click on the 'actions' button to see when it's finished, but your memex will now be online  at an address following this pattern: `your-username.github.io/name-of-your-repository/website`
 
 Now that was easy!
 
