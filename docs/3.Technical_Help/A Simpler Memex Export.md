@@ -5,7 +5,7 @@ A new plugin for Obsidian has just been released that can turn your individual n
 
 But if you'd like to try something else.... read on.
 
-This is what you'll end up with: [https://shawngraham.github.io/simpler-memex/](https://shawngraham.github.io/simpler-memex/website)
+This is what you'll end up with: [https://shawngraham.github.io/simpler-memex/website](https://shawngraham.github.io/simpler-memex/website)
 
 ![[simpler-memex-screenshot.png]]
 
