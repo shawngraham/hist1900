@@ -26,11 +26,11 @@ This is what you'll end up with: [https://shawngraham.github.io/simpler-memex/we
 ## Export your 'website' subfolder
 
 - make a new, empty folder on your computer. Maybe on your desktop, and call it something like, 'memex-export'. You're going to get the plugin to put all of the html files in there.
-- Right click on your 'website' subfolder in your obsidian vault. This subfolder, remember, is where you've put the notes that you want to move online.
+- Right click on your 'website' subfolder in your obsidian vault. This subfolder, remember, is where you've put the notes that you want to move online. Select 'Export to HTML'
 
 ![[right-click-export.png]]
 
-In the pop-up, make sure you turn on these options:
+In the pop-up that then opens, make sure you turn on these options:
 
 ![[export-to-html-last-settings.png]]
 
