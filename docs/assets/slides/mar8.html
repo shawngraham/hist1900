@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/simple.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Computational Incunabula:
+
+### The British Experience
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Look, I was busy yesterday, there's not much in the way of visuals. 
+
+But check this [timeline out instead while I chat with you](https://www.computerhistory.org/timeline/computers/).
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# COLOSSUS
+
+<img src="https://images.computerhistory.org/timeline/timeline_computers_1944.colossus.jpg" alt="" style="object-fit: scale-down">
+
+
+- developed during WWII
+- emerges from the Bombe
+- never fully declassified until well after the war
+- supervening necessity: German wolfpack
+</div>
+
+<aside class="notes"><p>Keeping shipping open, avoiding german u-boats, meant the British really REALLY needed to break German cyphers</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## ENIGMA
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/EnigmaMachineLabeled.jpg" alt="" style="object-fit: scale-down">
+</div>
+
+<aside class="notes"><ul>
+<li>based perhaps on the ideas used in a commerical machine developed by Edward Hebern aimed at banks and business and anyone who didn&#39;t want their messages being read on the telegraph; although like everything else, others were working on similar cyphering devices based on rotors</li>
+<li>German:  Arthur Scherbius - calls his &#39;enigma&#39;, meaning, &#39;riddle&#39;</li>
+<li>typewriter key, wired to lights showing letters. substitution cypher - A becomes Q. But if you can change the wiring with each keystroke, becomes a polyalphabetic substitution cipher. Easy to break, with one rotor. But with two rotors, 26 × 26 = 676 letters, but you only need to know two letters/numbers to set up/decrypt. 3 rotors: 17,576</li>
+<li>add a bit more enigneering: <code>Combining three rotors from a set of five, each of the 3 rotor setting with 26 positions, and the plug board with ten pairs of letters connected, the military Enigma has 158,962,555,217,826,360,000 (nearly 159 quintillion) different settings. (5 × 4 × 3) × (263) × [26! / (6! × 10! × 210)] = 158,962,555,217,826,360,000.</code></li>
+<li>Scherbius dies in a cart accident in 1928. By mid 1930s, every branch of german military using the machines</li>
+<li>a quirk of the machine was that no letter could be encyphered as itself; this eventually is the crack into which the wedge is driven to break the codes</li>
+<li>polish gov&#39;t sees what&#39;s coming down the pipe - they&#39;d broken the 3-rotor machine by mid 30s; mere weeks before the invastion, Poles shared what they knew/techniques with the French and Germans. Throughout the war, the game becomes adding complexity to the machines, and then trying to break those machines.</li>
+<li>the poles created a machine called &#39;the Bombas&#39; that basically reverse-engineered Enigma. But everytime more rotors get added to enigma, the previous &#39;bombas&#39; is no longer useful</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Hut 8 & Bletchly Park
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/%22Hut_8%22%2C_Bletchley_Park_-_geograph.org.uk_-_1592862.jpg" alt="" style="object-fit: scale-down">
+</div>
+
+<aside class="notes"><ul>
+<li>Government Code &amp; Cyper School - Bletchly Park</li>
+<li>Turing and his crew worked in hut 8 on the problem of cracking the naval Enigma machines</li>
+<li>they knew the principles, and had good idea of its design.</li>
+<li>Turing et all worked to improve the Bombe machines - specialized calculators - to break the codes</li>
+<li>dozen mathemtaicians, 4 linguists, 100+ others all women apparently</li>
+<li>drawing on a tradition of specialized electro-mechanical devices for mathematical research in Britain; simpler machine in many respects than what Zuse or Aitken or Mauchly were doing. But then again, the need was much greater.</li>
+<li>they focussed on &#39;probable words&#39; that were used as the keys to set the rotors up in the first place; plaintext was used in some messages, and keeping track of what plaintext was used and in what contexts eventually gives them a method for starting to test possible keys. Sometimes they&#39;d spot messages sent in less secure ways being retransmitted on more secure machines, so breaking it on the lesser machine would give a key to the stronger. </li>
+<li>the bombe would churn through the possibilities; by 1941 they could crack a message in a day</li>
+<li>by 1942 germans added another rotor; Allies didn&#39;t know, until a radio operator sent a message with one wheel turned off, then corrected himself and sent the same message again with a wheel turned on thus revealing existence of a new wheel.</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div align="left">
+
+*"It was luck the security people didn't know [about Turing being gay] early on, because if they had known, he might not have obtained his clearnace and we might have lost the war"* 
+
+- a member of Turing's team.
+
+</div>
+</div>
+
+<aside class="notes"><p>Without any hint of irony.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Bombe to Colossus
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/RebuiltBombeFrontView.jpg/300px-RebuiltBombeFrontView.jpg" alt="" style="object-fit: scale-down">
+
+
+(this is a bombe)
+
+- Turing's teacher, Max Newman, leads design of Colossus
+- Colossus could suggest best match for a pattern within a text
+- second colossus could figure out which pattern was best to try
+- integrating valves the key
+</div>
+
+<aside class="notes"><ul>
+<li>German encryption required more powerful devices</li>
+<li>British build a device that can do boolean operations, but is more similar to the analogue computers of vannevar bush; but also involves valves and relays and paper-tape readers. </li>
+<li>a rickety device: didn&#39;t have to be pretty, just had to work.</li>
+<li>to improve things, they work out how to store the patterns to search for encoded in valves, and so only the messages they&#39;re intercepting have to be put on the machine. </li>
+<li>by 1943 allies are able to neutralise german encryption again; many estimate this shaves two to three years off the war</li>
+<li>anyway, this makes ENIAC &amp; COLOSSUS sit astride the phase transition from powerful calculators to full-on computers</li>
+<li>the difference is that a full on computer must have a datastore in which its operating instructions are held, and which can be varied because of the calculations being done.,</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Post War Developments Doldrums
+
+- multiple teams are exploring these machines that sit on the calculator/computer barrier
+- von Neumann writes the 'First Draft of a Report on The EDVAC' 1945
+- but for the most part, the urgency is gone; everyone losing steam, in terms of computing design
+- last technical hurdle to solve is the problem of memory (many solutions mooted, workable)
+</div>
+
+<aside class="notes"><ul>
+<li>von Neumann&#39;s paper circulates widely; it describes the kinds of things a computer - a proper computer - ought to have, given what they now knew about such devices. One author puts it like this: &quot;It was as if, in the early 1890s, somebody had specified, in some detail, the fundamental design elements of an automobile - and that this document acted prescriptively to limit the range of options available to engineers in the decades following&quot;</li>
+<li>Influenced Turing, Mauchely, the folks at the Institute of Advanced Studies in Princeton, anyone who was into these devices read this report.</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## From One Supervening Necessity to Another
+
+- Project Whirlwind
+	- starts off as a kind of analogue computer meant to simulate flight on multiple kinds of airplanes being developed during the war
+- most expensive of the various computing projects; navy loses interest
+- airforce takes over: the only machine that could plot intercept courses for strategic long range bombers 
+- solves the problem of magnetic memory
+</div>
+
+<aside class="notes"><ul>
+<li><p>didn&#39;t work all that well at first</p>
+<ul>
+<li>ENIAC happens; Whirlwind rejigged for digital real-time output and parallel processing</li>
+<li><em>it could even display its output on an oscilloscope</em> in real time</li>
+<li>construction starts in &#39;49, by &#39;49 it works</li>
+</ul>
+</li>
+<li><p>led by Jay Forrester. Who also develops key ideas, later on, in system dynamics. Which inspire Will Wright, who encodes these into Sim City; Forrester had some dodgy ideas about urban values, and so those somewhat regressive ideas have now informed generations of gamers - but I digress.</p>
+</li>
+<li><p>the cold war provides the new supervening necessity.  new weapons, new simulations, new global-spanning aircraft then missles and space all require computing power</p>
+</li>
+<li><p>the first computer installed at the Insitute for Advanced Study in Princeton - ready to go by 1951 and one of the first problems they ran on it came from the Los Alamos nuclear folks, running 60 days 24/hrs a day.</p>
+</li>
+<li><p>Because the US has its research &amp; industrial/military work distributed across labs and quasi-competitive research groups, a plethora of new computers all emerge, largely based on the design of the machine at IAS - MANIAC, ORDVAC, ILLIAC, AVIDAC, ORACLE, JOHNNIAC; and all of these machines have to be programmed, and a programming approach for each one designed &amp; developed from scratch</p>
+</li>
+<li><p>soviets detonate atomic bomb 1949; americans respond with h-bomb in 1952. You need digital computers.</p>
+</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="https://images.computerhistory.org/timeline/timeline_sw.languages_1956.whirlwind.jpg" alt="" style="object-fit: scale-down">
+
+caption says 'Joe Thompson at Whirlwind console'. Who was [Joe Thompson?](https://news.mit.edu/2021/scene-at-mit-computing-pioneer-joe-thompson-technology-history-0203)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Meanwhile in Britain
+
+- Manchester Baby
+- built to test another solution to the problem of memory
+- runs a stored program from memory in 1948 - another 'first computer!' moment
+
+<img src="https://images.computerhistory.org/timeline/timeline_computers_1948.manchesterbaby.jpg" alt="" style="object-fit: scale-down">
+</div>
+
+<aside class="notes"><ul>
+<li>the prevailing idea that all computers had to be big and monstrous meant that this machine, which was quickly designed and was relatively small and which <em>worked</em> didn&#39;t take off, remained a curiosity. They returned to building big room-filling machines.</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Allies no longer sharing information
+
+- act of congress in 1946 closes off data sharing with allies over nuclear work
+- Britain sets out to build its own expertise
+- Decides that all such experiments ought to be centralised at the National Physical Laboratory
+- The 'official' British Computer will be built at NPL, and they turn to Turing to make it, the 'Automatic Computing Engine'
+</div>
+
+<aside class="notes"><ul>
+<li>work as at Manchester also shows how successful Britain&#39;s boffins were at controlling things though. Manchester only got funding for their machine by saying it&#39;d be used for &#39;pure&#39; phsyics/maths research - same gambit that von Neumann used for getting computing work happening at the Institute for Advanced Studies in the US</li>
+<li>minor official in the bureaucracy decided however that there was no use for ACE and worked to obstruct turing</li>
+<li>because of the official secrets act, Turing couldn&#39;t explain to this bureaucrat the significance of what he was trying to do</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## The Death of Alan Turing
+
+- Turing moves to Manchester to work on computing 1948
+- His house is burgled; he calls the police. In the course of their investigation, Turing is forced to admit he is homosexual. 1952
+- He was found guilty of gross indecency; imprisonment or probation with chemical castration
+- loses security clearances. Chooses castration.
+- commits suicide 1954
+- pardoned in 2012
+</div>
+
+<aside class="notes"><ul>
+<li>cold war paranoia about the &#39;right&#39; sort of person also felled Mauchley. Remember ENIAC and Eckert &amp; Mauchly&#39;s computer company, its take-over by Rand?.  The month the first UNIVAC computer shipped, in 1952 - Mauchley stripped of his security clearance for supposed communist ties: he had signed a petition for civilian control of nuclear power</li>
+<li>this same paranoia would also destroy britain&#39;s domestic computing industry, as they tried to weed out women and other &#39;unreliable&#39; types in favour of public-school educated old boys. Harold Wilson mandates a nationalization of computing industry in 1965, just a godawful mess. See Mar Hicks, Programmed Inequality</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## The Period of the Digital Incunabula is Over
+
+- In the UK, commerical versions of the Manchester 'Baby' are being sold by the Ferranti corporation as general purpose business computers by 1951
+- By 1952, IAS machine comes online
+- The digital age begins
+- "There will never be enough problems, enough work for more than one or two of these computers... stop this foolishness with Eckert and Mauchly" - I wonder if Aitken ate those words
+</div>
+
+<aside class="notes"><p>one of these Ferranti machines went to the U of T, helped design st lawrence seaway</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## IBM finally gets in on the act
+
+- Incidentally, on some accounts, this is when the digital humanities are born - [Busa](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1069&context=classicsfacpub)
+
+<img src="https://images.computerhistory.org/timeline/timeline_computers_1953.ibm701.jpg" alt="" style="object-fit: scale-down">
+</div>
+
+<aside class="notes"><ul>
+<li>now that the pattern is established, IBM merely re-purposes existing devices</li>
+<li>pushed into action by the way Rand was selling UNIVAC computers (thanks in large part to its women staff)</li>
+<li>releases the &#39;701&#39; (with help from von Neumann and the IAS people, in exchange for equipment)</li>
+<li></li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Programming still an issue
+
+- every computer has its own wiring, circuits, designs, idiosyncracies
+- people like Grace Hopper are building compilers and higher level languages to ease programming and provide some interoperability
+- mostly male programmers liked the secrecy of the way things were
+</div>
+
+<aside class="notes"><ul>
+<li>&#39;the way things were&#39; meant that they relied on the mystery of it all to maintain the positions, priviledges. </li>
+<li>a lot of these tasks were highly sensitive operations, but since they relied on no one knowing what they were doing, they did a lot of work virtually in the open; security always gets bolted on afterwards</li>
+<li>people using the Whirlwind computers developed a kind of language to work with it</li>
+<li>Grace Hopper also the impetus behind the languages FORTRAN and BACAIC</li>
+<li>IBM builds FORTRAN into its machines starting from about 1958</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Upshot
+- every machine is unique
+- every machine is ever larger, more expensive
+- living on the gov't dime: both the funder, and buyer for these devices, largely.
+- Eventually, something's gotta give: is it an effective use of money to build machines like this that could often stand (comparatively) idle?
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Is it time for the internet yet? 
+
+Competences
+- existence of digital computers
+- existence of telecommunication networks
+- existence of information theory
+- ideas around flow control, logic, algorithms
+- demonstration of control of a calculator over a phone line in 1940
+</div>
+
+<aside class="notes"><ul>
+<li>these damned machines - expensive to run, and if they weren&#39;t running, what were they for? The idea of timesharing, of interleaving different instructions/code to occur during idle times (that is, idle from the perspective of a computer) emerges in the 1950s; to the user, there doesn&#39;t seem to be any interruption at all</li>
+<li>Whirlwind, the machine for intercepting bombers, develops to the point where IBM sells a version of it to American Airlines in 1964 - central computer, terminals in airports, managing reservation system</li>
+</ul>
+<p>We&#39;re now at the point where the basic competences for the Internet are largely in place. And we&#39;ll turn to that story on Monday</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## The Grand Myth of the Internet
+
+"A system designed to prevent breakdown in the event of a nuclear war"
+
+The truth is a bit more nuanced. And we'll take that up on Monday.
+</div>
+
+<aside class="notes"><p>just need that supervening social necessity, right? And it&#39;ll turn out to be not what everyone thought it was going to be.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+But in some ways, the Internet is also a response to Sputnik
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FsPKD4tNe-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+CBC 1993
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KDxqfgIDvEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"fade","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
