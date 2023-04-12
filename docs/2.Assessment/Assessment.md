@@ -20,7 +20,7 @@ graph LR
 - [Tutorial level](https://shawngraham.github.io/tutorial-levels/src/hist1900c-tutorial.html): 5% - **January 11**
 - First Evaluation of your Memex: 10%  - **February 10**
 - Second Evaluation of your Memex: 20% - **March 10**
-- Third Evaluation of your Memex: 30% - **April 10**
+- Third Evaluation of your Memex: 30% - **April 10** (extended to April 12)
 - Final Journey: 35% - **April 27**
 
 Work accepted until midnight on the relevant dates. [Fill in this Google Form to notify me of the location of your work, and that your work is ready.](https://docs.google.com/forms/d/e/1FAIpQLSfmXvx4uUlFA8m5lHlLWw53FKlMunq3msaW1aTlCpiaycYRDQ/viewform?usp=sf_link)

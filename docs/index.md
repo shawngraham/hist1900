@@ -35,7 +35,7 @@ Make sure you read through and understand these materials:
 
 [[2.Schedule]]
 
-[[Assessment|3.Assessment]].
+3.[[Assessment]].
 
 _[Photo by Elly Filho, Unsplash.com](https://unsplash.com/photos/uKB4O22KMMk)_
 
