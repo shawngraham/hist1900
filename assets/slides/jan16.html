@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/night.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-opacity="0.5" data-background-image="328991_Thestudyofinvisiblewritingswasanewdisciplinemadeav.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Mediums and Messages
+
+<small>
+
+[https://shawngraham.github.io/hist1900/assets/slides/jan16](https://shawngraham.github.io/hist1900/assets/slides/jan16)
+
+</small>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="https://i.guim.co.uk/img/media/b816edb09d595d62070283b4885a64a9c1265b74/0_152_5760_3456/master/5760.jpg?width=620&quality=45&dpr=2&s=none" alt="" style="object-fit: scale-down">
+
+
+[https://archeologie.culture.gouv.fr/lascaux/fr/visiter-grotte-lascaux](https://archeologie.culture.gouv.fr/lascaux/fr/visiter-grotte-lascaux)
+
+[Amateur Archaeologist Uncovers Ice Age Writing System](https://www.theguardian.com/science/2023/jan/05/amateur-archaeologist-uncovers-ice-age-writing-system)
+</div>
+
+<aside class="notes"><p>Imagine.... it was cool out... you descend into these caves. by the guttering lamp light, the images dance and flicker and seem to come alive. What might these images mean? What do the dots convey? What is <em>the message?</em></p>
+<p>per the guardian: &#39;Cave paintings of species such as reindeer, fish and now extinct cattle called aurochs and bison have been found across <a href="https://www.theguardian.com/world/europe-news">Europe</a>. Alongside these images, sequences of dots and other marks have been found in more than 600 ice age images on cave walls and portable objects across Europe....By using the birth cycles of equivalent animals today as a reference point, the team deduced that the number of marks associated with ice age animals were a record, by lunar month, of when they were mating. They believe the inclusion of a “Y” sign, formed by adding a diverging line to another, meant “giving birth”.</p>
+<p>a protowriting system (cuneiform emerges 3400 bc in sumer). writing on stone, writing with pastes mixed up from bodily fluids, ground up mineral pastes, charcoal from the fire: these messages were meant to last, meant to be understood; and they said, &#39;we are here and this is ours&#39;.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="524996_TheMediumistheMessageDigitalArtFantasySurrealist.png" alt="" style="object-fit: scale-down">
+
+
+The Medium is the Message
+</div>
+
+<aside class="notes"><p>sometimes the fact of the medium is often more important than the message itself. the way we extend our minds into new technologies has an impact on how we use old technologies; he called this &#39;amputation&#39;- we extend our minds, our abilities with cars, we tie off or allow to wither the way we used to build cities with walking in mind. consequently, our health suffers, and we end up with cities where we couldn&#39;t really walk even if we wanted to. Such is barrhaven. He also argues that when we over extend, when the negative effects of the new technology become too much, we lose the benefits of the new technology.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+'Medium' is something that carries something else.
+
+Let's think about that relationship, that *carrying.*
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+And media come in different *classes* or kinds of things
+
+Who decides that something is *important* ? 
+
+Whoever makes that decision gains importance/power themselves!
+</div>
+
+<aside class="notes"><p>Classification and the catalogue as a control of knowledge dissemination (Foucault). he argues that when classifications shift, there&#39;s been a shift in power or focus too. he also points out that classification puts some things out-of-bound, all the better to control them.  He explores how these classifications get made manifest in architecture, for instance, and how they create new objects for study.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+> 'classifications both reflect and direct our thinking. The way we order represents the way we think' 
+
+- Stephen Jay Gould, 'The Titular Bishop of Titiopolis', *Natural History* 90: 22 1981
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+We're going to think about these things in the context of a whirl-wind tour of humans-making-scratches-on-things; we'll start with stone and finish with magnetic impulses.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="https://25.media.tumblr.com/tumblr_l9ofytZjP61qb7unno1_500.gif" alt="" style="object-fit: scale-down">
+</div>
+
+<aside class="notes"><p>So let&#39;s go waaaaaaaay back. We are, as far as we know, the only animals to make information-rich markings on durable materials. These <em>media</em> or &#39;intervening substance through which something else is transmitted or carried on&#39; extend human cognition, don&#39;t they?</p>
+<p>The clay tablet <em>remembers</em> for us. The clay tablet carries words forward into the future.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="linearA.png" alt="" style="width: 300px; object-fit: fill">
+<img src="indus.png" alt="" style="width: 300px; object-fit: fill">
+<img src="rongorongo.png" alt="" style="width: 300px; object-fit: fill">
+<img src="640px-Quipo_in_the_Museo_Machu_Picchu,_Casa_Concha,_Cusco.jpg" alt="" style="width: 300px; object-fit: fill">
+</div>
+
+<aside class="notes"><p>writing emerges several times, independently in human history - cuneiform in Mesopotamia, different &#39;linear&#39; scripts in Crete (2 millenium BC), hieroglyphics in Egypt, glyph systems in the Indus valley, the rongorongo of Rapanui (Easter Island); varies glyphs and physical systems (knots / quipu, wampum) in Central and South America; character-based symbols in China; notation systems for counting date even earlier </p>
+<p>a society can be illiterate even if it also has a writing system</p>
+<p>The evolution of writing systems seems to emerge out of the need to count - whether what is counted is heads of sheep, baskets of grain, lunar cycles and the pregnancy of animals, or the motion of stars in the sky (calendars).</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="w_k-66.png" alt="" style="width: 300px; height: 400px; object-fit: fill">
+
+[link](https://www.britishmuseum.org/collection/object/W_K-66)
+</div>
+
+<aside class="notes"><p>How did these ancient people store and transmit information?</p>
+<ul>
+<li>clay tablets</li>
+<li>papyrus</li>
+<li>stone (&#39;epigraphic habit&#39; of the romans)</li>
+<li>wax tablets</li>
+<li>engraved in metal, bronze, lead</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="alphabet.webp" alt="" style="width: 1200px; object-fit: fill">
+
+
+(this gif is *everywhere* on the internet. It's more or less correct; I wish I could find the original)
+</div>
+
+<aside class="notes"><ul>
+<li>&shy;<!-- .element: class="fragment" data-fragment-index="1" -->correlations with sound did not exist at first. our western alphabet evolves out of several factors in near eastern systems - ox, aleph, alpha, A; speakers of semetic languages did the work that first mapped the symbols to the sounds of the spoken language; early writing did not in fact &#39;speak&#39;, as it were.</li>
+<li>Greeks had a tradition that they received the alphabet from the phoenicians (8th century and later; phoenician script stabilized around 1000); the phoenicians also were active in italy; etruscan scripts show both phoenician and greek influence; the roman alphabet comes from the etruscan</li>
+<li>read johanna drucker&#39;s book Inventing the Alphabet: The Origins of Letters from Antiquity to the Present if you want more of this sort of thing</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# 𒈠𒌷𒆠
+</div>
+
+<aside class="notes"><p>libraries emerged before alphabetic scripts; Mari - settlement founded at start of 3rd millenium to control access to headwaters of euphrates (closest point towards M. sea); archive of more than 3000 letters from 1800-1750 (start of 2nd millenium)</p>
+<p>the medium was quite literally the message - that is, the ability to own, control, and have these things created power, status, prestige. it was control of a societies extended cognition</p>
+<p>Writing systems seem to be associated at first with places of ritual and communal gathering. This is not the same thing as saying palaces and temples; the latter implies a centralized control and political organization that emerges after writing systems. Temples might have emerged as places that <em>taught</em> writing...  the need to train scribes and specialized &#39;readers&#39; he need to train scribes had social/economic and also: biophysical implications (grain, domestication, support of workers not employed in subsistence)</p>
+<p>-scribal culture in these bronze age cultures (roughly, 2nd millenium bc); to read was more like, to be read to, a culture of listening, a culture of performance</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+...we'll now jump forward, oh, about 2 millenia...
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ephesus_Celsus_Library_Fa%C3%A7ade.jpg/550px-Ephesus_Celsus_Library_Fa%C3%A7ade.jpg" alt="" style="object-fit: scale-down">
+
+
+König, Jason, Katerina Oikonomopoulou, and Greg Woolf. Ancient Libraries. New York: Cambridge University Press, 2013.  https://doi.org/10.1017/CBO9780511998386.
+</div>
+
+<aside class="notes"><p>libraries- rooms of scrolls in little pigeon holes; in the Roman world, the language to describe libraries is part of the same discourse that describes other places and activities of refined leisure. a bibliothecae was a room to display one kind of treasure, a pinacothecae another; a library is a place of collection, of selection, of curation; an archives is a workaday room, very similar, that contains legal records; both have an end user in mind of a very particular kind.</p>
+<p>ordering by author, or ordering by genre (tragedies, comedies, natural history, philsophical themes, or ordering by purpose)</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+plot thus far:
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->the medium for a message is as important as the message (both for its affordances or what it permits to write, but also for how it extends our abilities to think/see the world in new ways)
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->how we classify media/messages has implications for power, control, and discipline (reflects and directs our thinking)
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->writing/counting intimately connected
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->the infrastructure for writing spills out, has impacts on society
+- &shy;<!-- .element: class="fragment" data-fragment-index="5" -->libraries reflect the world back to itself (for why else would extremists attack library readings & book lists?)
+- &shy;<!-- .element: class="fragment" data-fragment-index="6" -->there is no 'natural' way to organize materials in a library
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Let's jump oh another 1000 years, say.
+
+How about that moveable type, eh?
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/JikjiType.gif" alt="" style="object-fit: scale-down">
+
+
+Korean movable type from 1377 used for the _[Jikji](https://en.wikipedia.org/wiki/Jikji "Jikji")_
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->please note the optional sessions in our book lab
+</div>
+
+<aside class="notes"><ul>
+<li>Gutenberg does not invent</li>
+<li>technology is invented in China, around 1000; earliest surviving books printed with moveable type come from Korea, 14th century at least</li>
+<li><a href="https://artsandculture.google.com/story/movable-metal-type-great-invention-of-korea/vwWBbBU3V1g21Q">https://artsandculture.google.com/story/movable-metal-type-great-invention-of-korea/vwWBbBU3V1g21Q</a></li>
+<li>so why do we care about gutenberg? there are many fewer characters in the roman writing system; the statistical properties of european languages (lots of &#39;e&#39;s, many fewer &#39;q&#39;s) meant that one could set text quickly, resuse materials quickly, using a matrix to hold the things</li>
+<li>sign up for the book lab to experience more of this for yourself</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/440px-PrintMus_038.jpg" alt="" style="object-fit: scale-down">
+</div>
+
+<aside class="notes"><p>In a way, moveable type enables both the reduction in uncertainty around letter forms in european languages - enabling faster reading/communication - and faster reproduction. The ability of people to read the bible in their own language, free from &#39;expert&#39; intervention, is amongst other things the spark that lights reconfiguration of european society</p>
+<ul>
+<li><p>reduction in &#39;acceptable&#39; letter hands.</p>
+</li>
+<li><p>perhaps a reduction in the sensual interaction (illuminated manuscripts, ink blotches, cat paw prints, the smell &amp; texture of vellum, etc)</p>
+</li>
+<li><p>few manuscripts, dissemination of contents safe, controlled</p>
+</li>
+<li><p>books, dissemination wild, uncontrolled; anyone can be an author, anyone can be a reader</p>
+</li>
+<li><p>&shy;<!-- .element: class="fragment" data-fragment-index="1" -->libraries still status symbols; emergence of more universities, more books</p>
+</li>
+<li><p>&shy;<!-- .element: class="fragment" data-fragment-index="2" -->many different classification schemes emerge</p>
+</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### I'm skipping a lot of history here, eh?
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Melvil_Dewey.jpg/440px-Melvil_Dewey.jpg" alt="" style="object-fit: scale-down">
+
+
+But let's talk about Melvil Dewey (1851-1931)
+</div>
+
+<aside class="notes"><ul>
+<li>takes his starting point from Francis Bacon, who argued all knowledge comes from memory, reson, or imagination, thus books could be classified as either being history, philosophy or &#39;belles lettres&#39;, stories</li>
+<li>he worked in the amherst college library, and wanted the library to be used for educating folks beyond the library. he studied other libraries - finding that there was no real systemization of the catalogue (dogs under &#39;dogs&#39;, &#39;horses&#39; under &#39;horses&#39;, neither under &#39;animals&#39;, eg), or alphabettically according to author</li>
+<li>encounters the idea of using decimals as classifiers, since a decimal number is infinite</li>
+<li>he orders knowledge philosophy (contains everything else) theology, government, philology, natuer (math, phs, chem, etc) useful and fine arts, finally geography, biography, history.</li>
+<li>but all this was filtered through his experiences and what he was taught at Amherst</li>
+<li></li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+So what?
+</div>
+
+<aside class="notes"><ul>
+<li>dewey&#39;s system hits the US at a period when publice benefactors are building, expanding and reorganizing public libraries;</li>
+<li>the other major system is the library of congress cataloguing system, designed at roughly the same time. The LLC is different from dewey in that it focuses on what is actually in the collection, rather tha proscribing how knowledge should be organized. Dewey turns up often in public libraries, LLC in research ones; universities are expanding at this time too. LLC reflects the biases of Congress&#39; interests (&amp; the fact that the library was started with the gift of Jefferson&#39;s personal library &amp; his interests) - american, european, christian bias.</li>
+<li>These are the two systems that would&#39;ve seemed a natural way to organize knowledge to the same people who start working on what it means to compute &#39;information&#39;</li>
+<li></li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-opacity="0.45" data-background-image="http://www.johncoulthart.com/feuilleton/wp-content/uploads/2013/02/library3-big.jpg" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+> "The study of invisible writings was a new discipline made available by the discovery of the bi-directional nature of Library-Space. The thaumic mathematics are complex, but boil down to the fact that all books, everywhere, affect all other books. This is obvious: books inspire other books written in the future, and cite books written in the past" - Pratchett
+</div>
+
+<aside class="notes"><ul>
+<li>it&#39;s also worth pointing out being shelved nearby implies some sort of connection between the ideas in the book</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+The Memex introduces a completely new idea : 
+
+> "associative indexing... whereby any item may be caused at will to select immediately and automatically another... [so that] numerous items have been thus joined together to form a trail" - V Bush
+
+We can call this the 'bidirectional link'
+<img src="Hyperlinks_2.webp" alt="" style="width: 400px; object-fit: fill">
+
+
+(Maggie Appleton)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+1965: Hypertext!
+
+<img src="xanadu.png" alt="" style="width: 800px; object-fit: fill">
+</div>
+
+<aside class="notes"><p>In <strong>1965</strong> Ted Nelson coins the word <em>hypertext</em> to capture what a computer might do to the books it knows, or the things we might <em>write</em> with a computer (nb writing documents not one of the main things people wanted to use computers for back then)</p>
+<p>this was not successful, but it did give designers and computer scientists something to shoot for, a document aware of what it was built from, and what it inspired in turn. A living assemblage.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="Hyperlinks.webp" alt="" style="width: 800px; object-fit: fill">
+
+This is what hypertext became.
+</div>
+
+<aside class="notes"><p>Your obsidian vault <em>has</em> the two way aware links.</p>
+<p>What if our library catalogue had this sort of thing? What if the web, what if the internet, had allowed this?</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Plot so far *continued*
+
+- no natural way for documents/information to be organized;
+- people *tried* to find a 'natural' way to organize information
+	- these categorizations ended up reifying the way they already believed the world to work
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- in a north american context, the two big approaches hit at the same time there is massive public investment and expansion and reform of education (even the blackboard was a new idea once!)
+- proximity on shelves also enables a kind of *discoverability*; 'serendipity' it's sometimes called: but a function of a particular vision of the world, a reproduction of its norms
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- invention of the digital computer happens not all that long after these massive reorganizations
+- the digitization of knowledge is built by people for whom these categorizations/classifications of the world are normalized
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,w_960/v1589545798/maggieappleton.com/notes/memex.jpg" alt="" style="object-fit: scale-down">
+</div>
+
+<aside class="notes"><p>But the creation of a new class of document - the electronic document - on a new medium - the computer - inspires new ideas:</p>
+<ul>
+<li>&shy;<!-- .element: class="fragment" data-fragment-index="1" -->People like Vannevar Bush are already thinking about what a digital computer might do to <em>knowledge work</em> (which isn&#39;t what computers were invented for!)</li>
+<li>Peple like Ted Nelson is inspired by the Memex to invent the term hypertext to capture the idea that maybe documents might have a kind of &#39;awareness&#39; of each other</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+So, to sum it all up:
+
+- the physicality of messages/books has impacts in the world
+- this physicality has changed over time/ thus impacts in the world have changed
+- when new classifications shift, there's a shift in power too
+	- every phase of the 'internet' that we shall see involves this shift
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Oh, and:
+
+- with digitization, messages/content had potential to be 'aware' of their relationships to other messages/content - key insight of the memex
+- 'hypertext' becomes an attempt at realizing that potential, but bi-directionality not implemented
+- recent trends, software like notion, roam, obsidian, enables that bi-directionality.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" data-background-opacity="0.5" data-background-image="328991_Thestudyofinvisiblewritingswasanewdisciplinemadeav.png" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+_AI generated art: "The study of invisible writings was a new discipline made available by the discovery of the bi-directional nature of Library-Space. , Digital Art, Fantasy, Surrealist"_
+</div>
+
+<aside class="notes"><p>What will the implications of this be? I do not know. </p>
+<p>Now: why did I tell you all this!</p>
+</aside></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+			]
+		},
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"fade","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
